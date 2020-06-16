@@ -1,0 +1,5 @@
+ axios 与 与 Axios  的关系?
+    1. 从语法上来说: axios 不是 Axios 的实例
+    2. 从功能上来说: axios 是 Axios 的实例
+    3. axios 是 Axios.prototype.request 函数 bind()返回的函数
+    4. axios 作为对象有 Axios 原型对象上的所有方法, 有 Axios 对象上所有属性
